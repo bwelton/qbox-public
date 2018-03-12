@@ -39,7 +39,7 @@
 #endif
 
 #if USE_FFTW3
-#include "fftw3.h"
+#include "cufftw.h"
 #if USE_FFTW3MKL
 #include "fftw3_mkl.h"
 #endif

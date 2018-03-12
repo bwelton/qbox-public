@@ -30,7 +30,7 @@ using namespace std;
 #include "fftw.h"
 #endif
 #elif USE_FFTW3
-#include "fftw3.h"
+#include "cufftw.h"
 #elif USE_ESSL_FFT
 extern "C" {
   void dcft_(int *initflag, std::complex<double> *x, int *inc2x, int *inc3x,

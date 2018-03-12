@@ -24,7 +24,7 @@
 using namespace std;
 #include <cassert>
 
-#include "fftw.h"
+#include "cufftw.h"
 
 #ifdef IA32
 #include "readTSC.h"
